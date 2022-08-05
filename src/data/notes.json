@@ -1,0 +1,84 @@
+{
+  "notes": [
+    {
+      "text": "das sind meine Sticky Notes",
+      "bgColor": "#c2ff3d",
+      "id": 1
+    },
+    {
+      "text": "die Farben, Rotation und margin werden randomartig erzeugt",
+      "bgColor": "#bc83e6",
+      "id": 2
+    },
+    {
+      "text": "die Pins werden auch randomartig angezeigt\n\n",
+      "bgColor": "#3dc2ff",
+      "id": 3
+    },
+    {
+      "text": "wenn man auf die Pin doppelclickt, kann man die Notiz löschen\n\n",
+      "bgColor": "#ff3de8",
+      "id": 4
+    },
+    {
+      "text": "es fehlen noch grün und orange",
+      "bgColor": "#ff3de8",
+      "id": 5
+    },
+    {
+      "text": "die fehlen immer noch",
+      "bgColor": "#fca205",
+      "id": 6
+    },
+    {
+      "text": "nein grün!",
+      "bgColor": "#bc83e6",
+      "id": 8
+    },
+    {
+      "text": "ein Bug entdeckt, ich muss oft reloaden.... auch randomartig",
+      "bgColor": "#bc83e6",
+      "id": 9
+    },
+    {
+      "text": "ich will grün!!",
+      "bgColor": "#bc83e6",
+      "id": 11
+    },
+    {
+      "text": "ne grün!!!",
+      "bgColor": "#fca205",
+      "id": 12
+    },
+    {
+      "text": "ja so ist das mit random!!! ",
+      "bgColor": "#3dc2ff",
+      "id": 13
+    },
+    {
+      "text": "ich kann nicht aufgeben, bis ich nicht grün hab",
+      "bgColor": "#bc83e6",
+      "id": 14
+    },
+    {
+      "text": "dabei ist grün im Array weder als erstes noch als letztes, im Gegenteil, orange ist als letzte",
+      "bgColor": "#bc83e6",
+      "id": 16
+    },
+    {
+      "text": "ich mag lila eigentlich garnicht",
+      "bgColor": "#04e022",
+      "id": 17
+    },
+    {
+      "text": "AAAaaaaahhh da ist ja endlich grün.... \nDas Leben hat wieder einen Sinn",
+      "bgColor": "#bc83e6",
+      "id": 18
+    },
+    {
+      "text": "und schon wieder lila 🙄\n",
+      "bgColor": "#04e022",
+      "id": 19
+    }
+  ]
+}

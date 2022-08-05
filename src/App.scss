@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Patrick+Hand&display=swap");
+
+.App {
+  height: auto;
+  min-height:800px;
+  background-size: cover;
+
+  .btnCreateNote {
+    margin: 20px;
+    padding: 20px;
+    border: none;
+    box-shadow: 2px 5px 16px 0px #204b21;
+    background-color: #2eda31;
+    border-radius: 20px;
+    font-family: "Patrick Hand";
+    font-size: 1.5rem;
+  }
+  .btnCreateNote:active {
+    box-shadow: inset -1px 3px 8px 5px #204b21;
+  }
+
+  .stickyNotes {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .eachStickyNotes {
+    width: 250px;
+    height: 250px;
+    margin-top: 30px;
+    padding: 20px;
+    overflow: auto;
+    font-family: Indie Flower;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: rgb(5, 5, 226);
+    box-shadow: 7px 6px 16px -3px rgba(120,113,113,1);
+-webkit-box-shadow: 7px 6px 16px -3px rgba(120,113,113,1);
+-moz-box-shadow: 7px 6px 16px -3px rgba(120,113,113,1);
+  }
+  .eachStickyNotes::-webkit-scrollbar {
+    display: none;
+  }
+
+ 
+  .pin{
+    text-align: center;
+  }
+  .imgPin{
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+  }
+}
