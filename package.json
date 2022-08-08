@@ -6,7 +6,8 @@
     "api": "json-server --watch ./src/data/notes.json --port 5000",
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "run-p api dev"
   },
   "dependencies": {
     "api": "^4.5.1",
@@ -20,6 +21,7 @@
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "@vitejs/plugin-react": "^1.3.0",
+    "npm-run-all": "^4.1.5",
     "vite": "^2.9.9"
   }
 }
