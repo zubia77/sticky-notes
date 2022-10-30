@@ -5,10 +5,10 @@
   "scripts": {
     "api": "json-server --watch ./src/data/notes.json --port 5000",
     "dev": "vite",
-    "build": "vite build",
+    "build": "tsc && vite build",
     "preview": "vite preview",
-    "start": "run-p api dev",
-    "deploy": "git pull && npm i && npm run build && npm start"
+    "start": "",
+    "deploy": "git pull && npm i && npm run build && run-p api dev"
   },
   "dependencies": {
     "api": "^4.5.1",
