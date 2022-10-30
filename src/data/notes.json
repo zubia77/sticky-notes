@@ -74,6 +74,11 @@
       "text": "klappts immernoch?",
       "bgColor": "#3dc2ff",
       "id": 20
+    },
+    {
+      "text": "eine neue Notiz\n",
+      "bgColor": "#c2ff3d",
+      "id": 21
     }
   ]
 }
