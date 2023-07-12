@@ -2,19 +2,35 @@
 
 .App {
   height: auto;
-  min-height:800px;
+  min-height: 800px;
   background-size: cover;
 
-  .btnCreateNote {
-    margin: 20px;
+  .fixNotes {
+    width: 100vw;
     padding: 20px;
-    border: none;
-    box-shadow: 2px 5px 16px 0px #204b21;
-    background-color: #2eda31;
-    border-radius: 20px;
-    font-family: "Patrick Hand";
-    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+   
+    .btnCreateNote {
+     
+      padding: 20px;
+      border: none;
+      box-shadow: 2px 5px 16px 0px #204b21;
+      background-color: #2eda31;
+      border-radius: 20px;
+      font-family: "Patrick Hand";
+      font-size: 1.5rem;
+    }
+
+    .deleteNote {
+      background-color: #c2ff3d;
+      border-radius: 20px;
+      font-family: "Patrick Hand";
+      font-size: 1.5rem;
+      padding: 20px;
+    }
   }
+
   .btnCreateNote:active {
     box-shadow: inset -1px 3px 8px 5px #204b21;
   }
@@ -36,20 +52,19 @@
     font-size: 2rem;
     font-weight: bolder;
     color: rgb(5, 5, 226);
-    box-shadow: 7px 6px 16px -3px rgba(120,113,113,1);
--webkit-box-shadow: 7px 6px 16px -3px rgba(120,113,113,1);
--moz-box-shadow: 7px 6px 16px -3px rgba(120,113,113,1);
+    box-shadow: 7px 6px 16px -3px rgba(120, 113, 113, 1);
+    -webkit-box-shadow: 7px 6px 16px -3px rgba(120, 113, 113, 1);
+    -moz-box-shadow: 7px 6px 16px -3px rgba(120, 113, 113, 1);
   }
   .eachStickyNotes::-webkit-scrollbar {
     display: none;
   }
 
- 
-  .pin{
+  .pin {
     text-align: center;
   }
-  .imgPin{
+  .imgPin {
     -webkit-filter: drop-shadow(5px 5px 5px #222);
-  filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
   }
 }

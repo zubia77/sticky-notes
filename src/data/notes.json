@@ -64,6 +64,11 @@
       "text": "auf ein neues",
       "bgColor": "#3dc2ff",
       "id": 22
+    },
+    {
+      "text": "ein weiterer Versuch",
+      "bgColor": "#c2ff3d",
+      "id": 23
     }
   ]
 }

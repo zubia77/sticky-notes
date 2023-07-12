@@ -81,13 +81,15 @@ function App() {
     // in dieser div wird nur die Pinwand als Backgroundimage festgelegt
     <div className="App" style={{ backgroundImage: `url(${background})` }}>
 
-      <div>
+<div className="fixNotes"><div>
         {/* dieser Button ist dafür da, um eine neue Notiz zu schreiben. beim Klicken dieses Buttons erscheint ein Formular */}
         <button className="btnCreateNote" onClick={() => setPopupIsOpen(true)}>
           Notiz hinzufügen
         </button>
       </div>
-
+      <div className="deleteNote">Ein Doppelklick auf die rote Pin löscht die Notiz!</div>
+</div>
+      
         {/* das ist das Popup-Formular, das erscheint. Hier werden die states (Popup.jsx Zeile 5) den Variablen zugewiesen*/}
       <Popup
         popupIsOpen={popupIsOpen}
