@@ -117,7 +117,7 @@ function App() {
             >
               {/* hier wird, der im Formular geschriebene Text aus der json gerufen und angezeigt */}
                <div className="pin">
-                <img className="imgPin" style={{}} src={`../../public/${imgPinsArray[Math.floor(Math.random() * imgPinsArray.length)]}`} width="40px" onDoubleClick={() => {notesDeleteHandler(note.id)}} />
+                <img className="imgPin" style={{}} src={`../../${imgPinsArray[Math.floor(Math.random() * imgPinsArray.length)]}`} width="40px" onDoubleClick={() => {notesDeleteHandler(note.id)}} />
               </div>
               {note.text}
              

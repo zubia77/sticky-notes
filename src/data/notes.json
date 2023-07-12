@@ -1,11 +1,6 @@
 {
   "notes": [
     {
-      "text": "das sind meine Sticky Notes",
-      "bgColor": "#c2ff3d",
-      "id": 1
-    },
-    {
       "text": "die Farben, Rotation und margin werden randomartig erzeugt",
       "bgColor": "#bc83e6",
       "id": 2
@@ -24,11 +19,6 @@
       "text": "es fehlen noch grün und orange",
       "bgColor": "#ff3de8",
       "id": 5
-    },
-    {
-      "text": "die fehlen immer noch",
-      "bgColor": "#fca205",
-      "id": 6
     },
     {
       "text": "ein Bug entdeckt, ich muss oft reloaden.... auch randomartig",
@@ -71,14 +61,9 @@
       "id": 19
     },
     {
-      "text": "klappts immernoch?",
+      "text": "auf ein neues",
       "bgColor": "#3dc2ff",
-      "id": 20
-    },
-    {
-      "text": "eine neue Notiz\n",
-      "bgColor": "#c2ff3d",
-      "id": 21
+      "id": 22
     }
   ]
 }
